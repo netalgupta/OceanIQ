@@ -94,19 +94,6 @@ npm run dev
 
 ---
 
-## 👥 Team Ctrl Alt Defeat & Assignment Directory
-
-| Member | Name | Role | Specification |
-|---|---|---|---|
-| **M1** | **Aryan Lomte (Lead)** | AI Systems Architect & Full RAG Lead | [Aryan_Lomte.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Aryan_Lomte.md) |
-| **M2** | **Aditya Yadav** | Data Engineer & Backend Lead | [Aditya_Yadav.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Aditya_Yadav.md) |
-| **M3** | **Sahil Shah** | Predictive ML & Sensor QC Lead | [Sahil_Shah.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Sahil_Shah.md) |
-| **M4** | **Advay Chavan** | Frontend Full-Stack Lead | [Advay_Chavan.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Advay_Chavan.md) |
-| **M5** | **Netal Gupta** | Geospatial Visualization Specialist | [Netal_Gupta.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Netal_Gupta.md) |
-| **M6** | **Kanishka Sahal** | Marine Analytics & Presentation Lead | [Kanishka_Sahal.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Kanishka_Sahal.md) |
-
----
-
 ## 📚 Complete Technical Documentation
 
 - 📖 **[Master Handbook: VARUNA.md](file:///e:/Hackathons/floatchatai-main/VARUNA.md)**
