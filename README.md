@@ -5,7 +5,6 @@
 [![Smart India Hackathon 2026](https://img.shields.io/badge/SIH-2026_Track-0A2540?style=for-the-badge&logo=target&logoColor=2EE6C6)](https://sih.gov.in)
 [![INCOIS](https://img.shields.io/badge/MoES-INCOIS_Argo-071A2D?style=for-the-badge&logo=datacamp&logoColor=2EE6C6)](https://incois.gov.in)
 [![CMLRE](https://img.shields.io/badge/MoES-CMLRE_Biodiversity-051421?style=for-the-badge&logo=phylogeny&logoColor=00FFC6)](https://cmlre.gov.in)
-[![NVIDIA Nemotron 550B](https://img.shields.io/badge/LLM-NVIDIA_Nemotron_550B-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://openrouter.ai)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Next.js 14](https://img.shields.io/badge/Frontend-Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![PostGIS](https://img.shields.io/badge/Spatial-PostgreSQL_PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgis.net)
