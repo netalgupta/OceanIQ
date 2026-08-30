@@ -6,7 +6,7 @@ Grounded answer generation using OpenRouter Nemotron-Ultra 550B.
 from __future__ import annotations
 
 from typing import Any, AsyncIterator, Dict, List, Optional
-from src.llm.openrouter_client import chat_complete
+from src.llm.gateway import chat_complete
 from src.rag.context_assembler import assemble_context
 
 GROUNDED_SYSTEM_PROMPT = """You are the Grounded Scientific Copilot for VARUNA (INCOIS & CMLRE).

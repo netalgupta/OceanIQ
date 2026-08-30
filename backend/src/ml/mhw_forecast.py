@@ -354,7 +354,6 @@ class TemporalBlock(_BaseModule):  # type: ignore[misc]
         return self.act(self.norm(self.conv(self.pad(x))))
 
 
-class SpatioTemporalTCN(_NN_MODULE):  # type: ignore[misc]
 class SpatioTemporalTCN(_BaseModule):  # type: ignore[misc]
     """
     Per-cell temporal encoder (dilated causal Conv1d over 30-day history)

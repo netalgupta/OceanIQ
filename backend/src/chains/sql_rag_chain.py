@@ -13,7 +13,7 @@ from typing import Any, Dict, List, Optional
 
 from src.config import settings
 from src.database.postgres import run_sql
-from src.llm.openrouter_client import chat_complete
+from src.llm.gateway import chat_complete
 from src.utils.sql_extract import extract_sql, sanitize_sql
 from src.utils.viz_builder import build_viz_specs
 

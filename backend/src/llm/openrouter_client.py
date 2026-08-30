@@ -29,13 +29,20 @@ OPENROUTER_URL = settings.openrouter_base_url
 
 def _get_key_pool() -> List[str]:
     keys: List[str] = []
-    if getattr(settings, "openrouter_api_keys_pool", ""):
-        for k in settings.openrouter_api_keys_pool.split(","):
-            k_clean = k.strip()
-            if k_clean and k_clean not in keys:
-                keys.append(k_clean)
-    if settings.openrouter_api_key and settings.openrouter_api_key not in keys:
-        keys.append(settings.openrouter_api_key)
+    pool_str = getattr(settings, "openrouter_api_keys_pool", "") or ""
+    if pool_str:
+        for raw_line in pool_str.replace("\r\n", "\n").replace(",", "\n").split("\n"):
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" in line:
+                line = line.split("=", 1)[1].strip()
+            line = line.strip(" '\"\t")
+            if line and line not in keys:
+                keys.append(line)
+    single_key = (getattr(settings, "openrouter_api_key", "") or "").strip(" '\"\t")
+    if single_key and single_key not in keys and not single_key.startswith("#"):
+        keys.append(single_key)
     return keys
 
 

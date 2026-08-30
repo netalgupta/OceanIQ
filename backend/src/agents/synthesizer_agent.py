@@ -11,7 +11,7 @@ from math import isnan
 import logging
 from typing import Any, Dict, List, Optional
 
-from src.llm.openrouter_client import chat_complete
+from src.llm.gateway import chat_complete
 
 log = logging.getLogger("varuna.agent.synthesizer")
 

@@ -19,7 +19,7 @@ from src.agents.sql_gen_agent import execute_sql_task
 from src.agents.retrieval_agent import execute_retrieval_task
 from src.agents.synthesizer_agent import synthesize_answer
 from src.agents.biodiversity_agent import execute_biodiversity_task
-from src.llm.openrouter_client import chat_complete
+from src.llm.gateway import chat_complete
 from src.config import settings
 from src.observability.tracer import pipeline_span
 from src.aegis.aegis_engine import run_aegis, build_evidence_context_for_synthesizer

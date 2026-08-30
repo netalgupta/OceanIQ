@@ -46,9 +46,9 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
 
 async def embed_texts_async(texts: List[str]) -> List[List[float]]:
     """
-    Async interface connecting to OpenRouter nomic embeddings.
+    Async interface connecting to active cloud embeddings (Gemini/OpenRouter).
     """
-    from src.llm.openrouter_client import embed_texts as cloud_embed
+    from src.llm.gateway import embed_texts as cloud_embed
     try:
         return await cloud_embed(texts)
     except Exception:

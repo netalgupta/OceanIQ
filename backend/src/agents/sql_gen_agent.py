@@ -9,7 +9,7 @@ import logging
 from typing import Any, Dict, List, Optional
 
 from src.database.postgres import run_sql
-from src.llm.openrouter_client import chat_complete
+from src.llm.gateway import chat_complete
 from src.utils.sql_extract import extract_sql, sanitize_sql
 
 log = logging.getLogger("varuna.agent.sql")

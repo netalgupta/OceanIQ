@@ -39,6 +39,15 @@ class Settings(BaseSettings):
     # ── Redis ──────────────────────────────────────────
     redis_url: str = Field("redis://localhost:6379/0", alias="REDIS_URL")
 
+    # ── LLM Cognitive Engine & Provider ───────────────
+    llm_provider: str = Field("gemini", alias="LLM_PROVIDER")
+
+    # ── Google Gemini API ──────────────────────────────
+    gemini_api_key: str = Field("", alias="GEMINI_API_KEY")
+    gemini_api_keys_pool: str = Field("", alias="GEMINI_API_KEYS_POOL")
+    gemini_model: str = Field("gemini-2.0-flash", alias="GEMINI_MODEL")
+    gemini_embed_model: str = Field("text-embedding-004", alias="GEMINI_EMBED_MODEL")
+
     # ── OpenRouter / Cloud Cognitive API ────────────────
     openrouter_api_key: str = Field("", alias="OPENROUTER_API_KEY")
     openrouter_api_keys_pool: str = Field("", alias="OPENROUTER_API_KEYS_POOL")
