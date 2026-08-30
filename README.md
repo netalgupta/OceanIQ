@@ -2,11 +2,22 @@
 ### Agentic AI Ocean & Marine Ecosystem Intelligence Platform
 **A Unified National Marine Data Backbone Fusing INCOIS Physical Oceanography with CMLRE Living Resources**
 
+[![CSI Gemini MLH Hackathon 2026](https://img.shields.io/badge/SIH-2026_Track-0A2540?style=for-the-badge&logo=target&logoColor=2EE6C6)](https://sih.gov.in)
 [![INCOIS](https://img.shields.io/badge/MoES-INCOIS_Argo-071A2D?style=for-the-badge&logo=datacamp&logoColor=2EE6C6)](https://incois.gov.in)
 [![CMLRE](https://img.shields.io/badge/MoES-CMLRE_Biodiversity-051421?style=for-the-badge&logo=phylogeny&logoColor=00FFC6)](https://cmlre.gov.in)
+[![NVIDIA Nemotron 550B](https://img.shields.io/badge/LLM-NVIDIA_Nemotron_550B-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://openrouter.ai)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Next.js 14](https://img.shields.io/badge/Frontend-Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Gemini API](https://img.shields.io/badge/AI-Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![PostGIS](https://img.shields.io/badge/Spatial-PostgreSQL_PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgis.net)
+
+---
+
+## 🏆 Built for the CSI Gemini MLH Hackathon
+
+VARUNA was developed for the **CSI Gemini MLH Hackathon**. It is **not an SIH (CSI Gemini MLH Hackathon) submission**.
+
+The project uses **Gemini API keys** as part of its AI capabilities, alongside the multi-agent, data-engineering, spatial analytics, and machine-learning components described below.
 
 ---
 
@@ -89,6 +100,19 @@ npm install
 npm run dev
 ```
 - Command Center UI: `http://localhost:3000`
+
+---
+
+## 👥 Team Ctrl Alt Defeat & Assignment Directory
+
+| Member | Name | Role | Specification |
+|---|---|---|---|
+| **M1** | **Aryan Lomte (Lead)** | AI Systems Architect & Full RAG Lead | [Aryan_Lomte.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Aryan_Lomte.md) |
+| **M2** | **Aditya Yadav** | Data Engineer & Backend Lead | [Aditya_Yadav.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Aditya_Yadav.md) |
+| **M3** | **Sahil Shah** | Predictive ML & Sensor QC Lead | [Sahil_Shah.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Sahil_Shah.md) |
+| **M4** | **Advay Chavan** | Frontend Full-Stack Lead | [Advay_Chavan.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Advay_Chavan.md) |
+| **M5** | **Netal Gupta** | Geospatial Visualization Specialist | [Netal_Gupta.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Netal_Gupta.md) |
+| **M6** | **Kanishka Sahal** | Marine Analytics & Presentation Lead | [Kanishka_Sahal.md](file:///e:/Hackathons/floatchatai-main/docs/assignments/Kanishka_Sahal.md) |
 
 ---
 
