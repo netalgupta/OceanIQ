@@ -1,0 +1,64 @@
+# Node
+node_modules
+.npm
+.pnpm-store
+
+# Python
+.venv
+__pycache__
+*.pyc
+
+# Env
+.env
+**/.env
+**/.env.local
+
+# Chroma vec store
+**/.chroma/
+
+# Misc
+.DS_Store
+*.log
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+venv/
+pip-wheel-metadata/
+
+# Node (in case you add a web app later)
+node_modules/
+dist/
+.vitepress/cache/
+.vscode/
+
+# Data / Artifacts
+apps/backend/artifacts/
+**/data/qdrant_storage/
+apps/backend/chroma/
+*.sqlite
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+.next/
+# VARUNA ML runtime caches (machine-local DB snapshots; rebuild automatically)
+backend/src/ml/cache/
+apps/backend/data/cache/
+backend/data/cache/
+*.tsbuildinfo
+
+cmlre_dataset_1/
+Dataset1_CMLRE/
+dataset2_obis/
+dataset2_test/
+chrome-profile-temp-new/
+*chrome-profile*
+
+pyrightconfig.json
+
